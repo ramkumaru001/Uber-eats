@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+#firstpage{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#head{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 40px;
+    color: white;
+    background-color: transparent;
+}
+
+
+#firstpic{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+#login{
+    position: absolute;
+    right: 150px;
+    font-size: 20px;
+    top: 30px;
+    font-family: 'Russo One', sans-serif;
+   width: 110px;
+   border-radius: 15px;
+   height: 60px;
+   
+}
+#login:hover{
+    background-color: red;
+}
+
+#signup{
+   position: absolute;
+   right: 50px;
+   color: black;
+   top: 30px;
+   right: 10px;
+   /* background-color: white; */
+   font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    width: 110px;
+    height: 60px;
+    border-radius: 15px;
+}
+#signup:hover{
+    background-color: red;
+}
+
+#address{
+    padding: 1%;
+    padding-left: 20%;
+    margin-left: 9%;
+}
+
+#loc{
+    margin-left: -450px;
+}
+#search{
+    margin-left: 450px;
+    padding: 1%;
+    border-radius: 15px;
+    background-color: black;
+    color: antiquewhite;
+}
+#search:hover{
+    background-color: red;
+}
+
+.firstimg{
+    position: absolute;
+    top: 780px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 600px;
+    background-color: white;
+
+
+
+
+}
+.feed{
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+    text-decoration: underline;
+    
+}
+
+.feed1{
+    position: absolute;
+    bottom: 200px;
+    left: 600px;
+    text-decoration: underline;
+
+}
+.feed2{
+    position: absolute;
+    bottom: 200px;
+    left: 1100px;
+    text-decoration: underline;
+}
+
+.nearme{
+    position: absolute;
+    bottom: 0;
+    top: 1400px;
+    padding: 1%;
+    background-color: aquamarine;
+    height: 55px;
+    border-radius: 5px;
+    left: 500px; 
+    font-family: 'Black Ops One', system-ui;   
+}
